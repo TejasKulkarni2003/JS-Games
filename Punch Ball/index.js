@@ -58,10 +58,10 @@ function countDown() {
       clearInterval(countDownTimerId)
       clearInterval(timerId)
       alert('GAME OVER! Your final score is ' + result)
-      return;
+      ed = 1;
     }
     if(ed === 1){
-        
+        st.disabled = false;
         currentTime = 60;
         ed =0;
         return;
