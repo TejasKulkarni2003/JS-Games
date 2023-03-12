@@ -1,0 +1,72 @@
+
+body{
+    text-align: center;
+    background-color: rgb(56, 53, 53);
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .sq{
+        width: 6.5rem;
+        height: 6.5rem;
+        border-color: rgb(255, 255, 255);
+        border-style: dotted;
+        
+
+    }
+
+    .grid{
+        display: flex;
+        flex-flow:  wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: right;
+        width: 21rem;
+        height: 21rem;
+    }
+
+    .cent{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ball{
+        margin-top: 10%;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .sq{
+        width: 10rem;
+        height: 10rem;
+        border-color: rgb(255, 255, 255);
+        border-style: dotted;
+        
+
+    }
+
+    .grid{
+        display: flex;
+        flex-flow:  wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: right;
+        width: 31rem;
+        height: 31rem;
+    }
+
+    .cent{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ball{
+        margin-top: 20%;
+    }
+
+}
+
+.fa-cog {
+    color: rgb(231, 15, 15);
+  }
